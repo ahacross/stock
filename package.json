@@ -3,12 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "start": "npm run serve",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "axios": "^0.21.1",
     "core-js": "^3.6.5",
+    "dayjs": "^1.10.6",
+    "quasar": "^2.0.0",
+    "tui-grid": "^4.18.1",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
     "vuex": "^4.0.0-0"
@@ -30,7 +36,9 @@
     "eslint-plugin-vue": "^7.0.0",
     "lint-staged": "^9.5.0",
     "node-sass": "^4.12.0",
-    "sass-loader": "^8.0.2"
+    "sass": "1.32.12",
+    "sass-loader": "^10.1.0",
+    "vue-cli-plugin-quasar": "~4.0.1"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"
